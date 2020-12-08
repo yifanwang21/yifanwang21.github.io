@@ -1186,3 +1186,7 @@ a:hover {
   color: #fff;
   border: 1px solid transparent;
 }
+
+.mailwidth {
+  width: 500px;
+}

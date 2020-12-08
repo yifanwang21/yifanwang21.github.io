@@ -59,6 +59,22 @@
   fill: #2d76b0 !important;
 }
 
+.social-link .social-svg:hover .social-group__inner-circle--twitter, .social-link .social-svg:active .social-group__inner-circle--twitter, .social-link .social-svg:focus .social-group__inner-circle--twitter {
+  fill: #00acee !important;
+}
+
+.social-link .social-svg:hover .social-group__inner-circle--pinterest, .social-link .social-svg:active .social-group__inner-circle--pinterest, .social-link .social-svg:focus .social-group__inner-circle--pinterest {
+  fill: #E60023 !important;
+}
+
+.social-link .social-svg:hover .social-group__inner-circle--facebook, .social-link .social-svg:active .social-group__inner-circle--facebook, .social-link .social-svg:focus .social-group__inner-circle--facebook {
+  fill: #3b5998 !important;
+}
+
+.social-link .social-svg:hover .social-group__inner-circle--parler, .social-link .social-svg:active .social-group__inner-circle--parler, .social-link .social-svg:focus .social-group__inner-circle--parler {
+  fill: #BF1E2D !important;
+}
+
 .social-link .social-svg:hover .social-group__outline, .social-link .social-svg:active .social-group__outline, .social-link .social-svg:focus .social-group__outline {
   stroke: currentColor;
   transform: scale(1.1);
@@ -67,6 +83,30 @@
 
 .social-link .social-svg:hover .social-group__outline--linkedin, .social-link .social-svg:active .social-group__outline--linkedin, .social-link .social-svg:focus .social-group__outline--linkedin {
   stroke: #2d76b0;
+  transform: scale(1.1);
+  transition: all .45s;
+}
+
+.social-link .social-svg:hover .social-group__outline--twitter, .social-link .social-svg:active .social-group__outline--twitter, .social-link .social-svg:focus .social-group__outline--twitter {
+  stroke: #00acee;
+  transform: scale(1.1);
+  transition: all .45s;
+}
+
+.social-link .social-svg:hover .social-group__outline--pinterest, .social-link .social-svg:active .social-group__outline--pinterest, .social-link .social-svg:focus .social-group__outline--pinterest {
+  stroke: #E60023;
+  transform: scale(1.1);
+  transition: all .45s;
+}
+
+.social-link .social-svg:hover .social-group__outline--facebook, .social-link .social-svg:active .social-group__outline--facebook, .social-link .social-svg:focus .social-group__outline--facebook {
+  stroke: #3b5998;
+  transform: scale(1.1);
+  transition: all .45s;
+}
+
+.social-link .social-svg:hover .social-group__outline--parler, .social-link .social-svg:active .social-group__outline--parler, .social-link .social-svg:focus .social-group__outline--parler {
+  stroke: #BF1E2D;
   transform: scale(1.1);
   transition: all .45s;
 }

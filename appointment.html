@@ -221,9 +221,7 @@
     </header>
 
 
-    <form id="gform" method="POST" class="background" data-email="email@example.com"
-      action="https://script.google.com/macros/s/AKfycbwxBJSDfxPpD34YO0tr6ugUfkz7KRbbFrV0tf3LNGWgd6yiFbw/exec">
-
+    <form>
       <div style="background-image: url('images/2880x1800-light-sky-blue-solid-color-background.jpg');"
         data-stellar-background-ratio="0.5">
         <div class="container">
@@ -277,9 +275,13 @@
             </form>
 
             <br>
-
-            <center><button class="button-success pure-button button-xlarge">
-                <i class="fa fa-paper-plane"></i>&nbsp;Submit</button></center>
+            <!--button takes you to back to the thank you page of the website-->
+            <center><button onclick="myFunction()">Submit</button></center>
+            <script>
+            function myFunction() {
+              location.replace("https://www.blakehiltonphotography.com/thankYou2")
+            }
+            </script>
             <br>
           </div>
         </div>

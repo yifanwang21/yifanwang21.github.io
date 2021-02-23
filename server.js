@@ -1,4 +1,4 @@
-const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
+const stripe = require('stripe')('pk_test_51INt8KH2UY1RbYFHQLSxWrClR7GKq7kkzN1EoVaWPKiHnQg98faPGAmfcJ2jFhex12yHY7QAieo2q1HGHFZbbGkX001M5q3OXC');
 const express = require('express');
 const app = express();
 app.use(express.static('.'));
@@ -22,8 +22,8 @@ app.post('/create-checkout-session', async (req, res) => {
       },
     ],
     mode: 'payment',
-    success_url: `${YOUR_DOMAIN}/success.html`,
-    cancel_url: `${YOUR_DOMAIN}/cancel.html`,
+    success_url: `${YOUR_DOMAIN}/success`,
+    cancel_url: `${YOUR_DOMAIN}/cancel`,
   });
 
   res.json({ id: session.id });
